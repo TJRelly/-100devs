@@ -1,0 +1,29 @@
+li {
+    color: blue;
+    text-decoration: underline;
+    font-size: 15px;
+    background: grey;
+}
+
+section {
+    height: 300px;
+    background: rgb(169, 124, 233);
+    border: 5px solid gold;
+}
+
+section h1 {
+    font-size: 30px;
+    color: gold;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+    background: rgb(95, 52, 18);
+    height: 300px;
+    width: 70%
+}
+
+footer h2 {
+    text-decoration: line-through;
+}

@@ -1,0 +1,61 @@
+body {
+    color: white;
+    background-color: rgba(135, 206, 235, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    max-width: 700px;
+    border: 5px solid rgba(72, 205, 49, 255);
+    padding: 2em;
+}
+
+header,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-size: 2.25em;
+    font-weight: 400;
+    margin: .25em 0 .75em;
+}
+
+h2,
+h3 {
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 1.725em;
+    margin-top: 1.5em;
+}
+
+img {
+    float: right;
+    margin: .5em auto;
+    width: 14em;
+}
+
+span {
+    color: rgba(129, 138, 142, 255);
+}
+
+a {
+    color: rgba(72, 205, 49, 255);
+    text-decoration: none;
+}
+
+footer h3 {
+    margin: 2em 0 .75em;
+}
+
+p {
+    font-size: 1.25em;
+    padding: .25em 0;
+}

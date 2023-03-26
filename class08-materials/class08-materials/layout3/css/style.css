@@ -1,0 +1,130 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  height: 100vh;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {}
+
+nav {
+  height: 80%;
+  width: calc(125%/7);
+
+  float: left;
+}
+
+nav img {
+  width: 10em;
+}
+
+.large img {
+  width: 32em;
+  display: block;
+}
+
+span {
+  font-weight: bold;
+  font-size: 80%;
+}
+
+img+ul {
+  margin-bottom: 2em;
+}
+
+.large h3 {
+  color: orange;
+}
+
+.small li {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: ;
+}
+
+.small a {
+  text-decoration: none;
+}
+
+.small h3 {
+  color: black;
+}
+
+.small span {
+  color: black;
+}
+
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 1em 0;
+}
+
+.large {
+  height: 80%;
+  width: calc(375%/7);
+  float: left;
+}
+
+.small {
+  height: 80%;
+  width: calc(200%/7);
+  float: left;
+}
+
+footer {
+  display: flex;
+  height: 20%;
+  clear: both;
+  border-top: 2px solid lightgrey;
+  justify-content: flex-end;
+}
+
+footer section {
+  width: 25%;
+  float: left;
+}
+
+footer img {
+  width: 16em;
+  margin: 1em;
+}
+
+footer h2 {
+  margin: 1em 1em 1em 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

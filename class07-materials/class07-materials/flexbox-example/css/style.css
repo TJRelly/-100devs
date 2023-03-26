@@ -1,0 +1,85 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     margin: 1rem;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header,
+footer {
+     height: 100px;
+     border: 2px solid gold;
+}
+
+section {
+     height: 200px;
+     border: 2px solid gold;
+     flex: 1;
+}
+
+main,
+.bottom {
+     display: flex;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (max-width: 820px) {
+     section {
+          background: green;
+     }
+}
+
+@media (min-width: 821px) and (max-width: 1000px) {
+     section {
+          border: 5px solid pink;
+          background: black;
+     }
+
+     header,
+     footer {
+          border: 5px solid pink;
+     }
+}
+
+@media (min-width: 1001px) and (max-width: 1500px) {
+
+     header,
+     footer,
+     main,
+     section {
+          background-color: pink;
+          border: 2px double black;
+     }
+
+     section {
+          background: white;
+     }
+}

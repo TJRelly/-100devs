@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer,
+section,
+article {
+    border: 5px solid gold;
+    height: 100px;
+}
+
+header,
+footer {
+    clear: both;
+}
+
+section {
+    float: left;
+    height: 125px;
+    width: 33.33%;
+}
+
+article {
+    float: left;
+    height: 150px;
+    width: 50%;
+}

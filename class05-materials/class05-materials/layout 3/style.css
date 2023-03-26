@@ -1,0 +1,36 @@
+* {
+    background: pink;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+header,
+footer,
+article,
+section {
+    border: 2px solid white;
+}
+
+header,
+footer {
+    height: 100px;
+    clear: both;
+}
+
+article,
+section {
+    float: left;
+    height: 350px;
+}
+
+section {
+    width: calc(100%/5);
+}
+
+article {
+    width: calc(200%/5)
+}

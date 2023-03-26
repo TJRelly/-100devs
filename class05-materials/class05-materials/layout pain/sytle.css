@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    border: 5px solid gold;
+    height: 200px;
+    clear: both;
+}
+
+section {
+    float: left;
+    border: 5px solid green;
+    height: 200px;
+    width: 33.33%;
+}
