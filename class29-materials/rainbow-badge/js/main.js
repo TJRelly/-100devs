@@ -12,7 +12,6 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
-        console.log(data)
         pokeStore.push(data.types[0].type.name)
         pokeImg.push(data.sprites.front_shiny)
         
